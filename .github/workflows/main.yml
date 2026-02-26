@@ -2,33 +2,31 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"  # كل 12 ساعة
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-
-      # 🔹 لازم تعمل checkout للكود الأول
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # 🔹 بعدين استخدم action بتاع الـ Snake
+      - name: Prepare dist folder
+        run: mkdir -p dist
+
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-      # 🔹 تنشئ مجلد dist لو لزم الأمر
-      - run: mkdir -p dist
+          outputs: dist/github-contribution-grid-snake.svg
 
-      # 🔹 انشر الملفات على فرع output
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: output        
+          build_dir: dist                
+          keep_history: true              # يحافظ على history
+          commit_message: "Update Snake contribution graph"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
