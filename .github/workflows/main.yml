@@ -9,12 +9,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+
+      # 🔹 لازم تعمل checkout للكود الأول
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # 🔹 بعدين استخدم action بتاع الـ Snake
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
         with:
-          github_user_name: Janaabdehrhim
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v3
+      # 🔹 تنشئ مجلد dist لو لزم الأمر
+      - run: mkdir -p dist
+
+      # 🔹 انشر الملفات على فرع output
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
