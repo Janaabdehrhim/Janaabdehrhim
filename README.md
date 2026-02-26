@@ -14,7 +14,7 @@
 
 # 🧠 ARCHITECT PROFILE
 
-```yaml
+yaml
 name: Jana Abdehrhim
 role: Frontend Engineer
 core_stack:
@@ -60,4 +60,4 @@ High Performance Frontend Solutions
 Clean code is not written by accident.
 It is engineered with intention.
 
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:0f0c29&height=120&section=footer"/> </div> ```
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:0f0c29&height=120&section=footer"/> </div> 
