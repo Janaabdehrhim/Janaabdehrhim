@@ -1,22 +1,41 @@
-<!-- ==================== HEADER ==================== -->
+<!-- ================= HERO SECTION ================= -->
 
-<h1 align="center">Hi 👋, I'm Jana Abdelrahim</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Front-End+Developer;Angular+Developer;Creative+UI+Designer;C%2B%2B+%7C+Java+%7C+C+Programmer;Problem+Solver;Always+Leveling+Up+🚀&center=true&width=600&height=50">
-</p>
+# JANA ABDEHRHIM
+### Frontend Engineer • Angular Specialist • Problem Solver
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Janaabdehrhim&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Building+Interfaces+That+People+Remember.;Engineering+Clean+Scalable+Frontend.;C%2B%2B+%7C+Java+%7C+C+Background.;Angular+Focused.+Performance+Driven." />
+
+</div>
 
 ---
 
-# 💎 About Me
+## 01. ENGINEER PROFILE
 
-```diff
-+ 🎨 I design modern & animated user interfaces
-+ ⚡ Angular & Front-End Specialist
-+ 🧠 Strong problem solving mindset
-+ 💻 Competitive programming background
-+ 🚀 Always learning & building
+txt
+Name:        Jana Abdehrhim
+Role:        Frontend Engineer
+Stack:       Angular / JavaScript / HTML / CSS / Bootstrap
+Languages:   C++ / Java / C
+Focus:       Clean Architecture • Performance • UI Precision
+Mindset:     Think • Build • Optimize • Repeat
+<p align="left"> <img src="https://skillicons.dev/icons?i=html,css,js,angular,bootstrap,cpp,java,c,git,github,vscode" /> </p>
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Janaabdehrhim&show_icons=true&theme=transparent&hide_border=true&title_color=8A2BE2&icon_color=8A2BE2&text_color=999999" /> </p> <p align="center"> <img src="https://streak-stats.demolab.com?user=Janaabdehrhim&theme=transparent&hide_border=true&ring=8A2BE2&fire=8A2BE2&currStreakLabel=8A2BE2" /> </p>
+04. WHAT I BUILD
+
+Scalable Angular Applications
+
+Creative Animated Interfaces
+
+Structured Component Architecture
+
+Problem Solving Systems
+
+Clean UI Systems
++ Mastering Angular Advanced Concepts
++ Deep Diving Into Frontend Architecture
++ Improving Algorithmic Thinking
++ Building Production-Ready Projects
++ “Code should not only work.
+It should feel engineered.”
